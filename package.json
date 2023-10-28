@@ -1,0 +1,29 @@
+{
+    "name": "pdf-editor",
+    "version": "1.0.0",
+    "description": "The PDF Editor Backend is a vital component of our comprehensive PDF editing application. This backend system is designed to facilitate the manipulation of PDF files, allowing users to select specific pages for modification and ultimately producing a new PDF file with the desired changes.",
+    "main": "server.js",
+    "scripts": {
+        "dev": "nodemon server.js",
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vaishnv-sn/PDF-editor-backend.git"
+    },
+    "keywords": [
+        "pdfeditor",
+        "nodejs",
+        "expressjs",
+        "backend"
+    ],
+    "author": "vaishnav s n",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/vaishnv-sn/PDF-editor-backend/issues"
+    },
+    "homepage": "https://github.com/vaishnv-sn/PDF-editor-backend#readme",
+    "dependencies": {
+        "nodemon": "^3.0.1"
+    }
+}
